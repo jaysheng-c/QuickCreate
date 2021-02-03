@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "../bin/QuickCreate"
   "../bin/QuickCreate.pdb"
-  "CMakeFiles/QuickCreate.dir/test/main.cpp.o"
+  "CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o"
+  "CMakeFiles/QuickCreate.dir/src/manager.cpp.o"
+  "CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/workspace/QuickCreate/src/CommandParser.cpp
+CommandParser.h
+/root/workspace/QuickCreate/src/CommandParser.h
+algorithm
+-
+fstream
+-
+sstream
+-
+string.h
+-
+
+/root/workspace/QuickCreate/src/CommandParser.h
+functional
+-
+iostream
+-
+memory
+-
+string
+-
+tuple
+-
+unordered_map
+-
+unordered_set
+-
+vector
+-
+
+/root/workspace/QuickCreate/test/test_class_create.cpp
+../src/CommandParser.h
+/root/workspace/QuickCreate/src/CommandParser.h
+sstream
+-
+

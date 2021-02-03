@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/workspace/QuickCreate/test/main.cpp" "/root/workspace/QuickCreate/build/CMakeFiles/QuickCreate.dir/test/main.cpp.o"
+  "/root/workspace/QuickCreate/src/CommandParser.cpp" "/root/workspace/QuickCreate/build/CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o"
+  "/root/workspace/QuickCreate/src/manager.cpp" "/root/workspace/QuickCreate/build/CMakeFiles/QuickCreate.dir/src/manager.cpp.o"
+  "/root/workspace/QuickCreate/test/QuickCreate.cpp" "/root/workspace/QuickCreate/build/CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

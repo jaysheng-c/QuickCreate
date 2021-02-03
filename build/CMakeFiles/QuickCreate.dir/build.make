@@ -60,30 +60,60 @@ include CMakeFiles/QuickCreate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QuickCreate.dir/flags.make
 
-CMakeFiles/QuickCreate.dir/test/main.cpp.o: CMakeFiles/QuickCreate.dir/flags.make
-CMakeFiles/QuickCreate.dir/test/main.cpp.o: ../test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuickCreate.dir/test/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QuickCreate.dir/test/main.cpp.o -c /root/workspace/QuickCreate/test/main.cpp
+CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o: CMakeFiles/QuickCreate.dir/flags.make
+CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o: ../test/QuickCreate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o -c /root/workspace/QuickCreate/test/QuickCreate.cpp
 
-CMakeFiles/QuickCreate.dir/test/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuickCreate.dir/test/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/QuickCreate/test/main.cpp > CMakeFiles/QuickCreate.dir/test/main.cpp.i
+CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/QuickCreate/test/QuickCreate.cpp > CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.i
 
-CMakeFiles/QuickCreate.dir/test/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuickCreate.dir/test/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/QuickCreate/test/main.cpp -o CMakeFiles/QuickCreate.dir/test/main.cpp.s
+CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/QuickCreate/test/QuickCreate.cpp -o CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.s
+
+CMakeFiles/QuickCreate.dir/src/manager.cpp.o: CMakeFiles/QuickCreate.dir/flags.make
+CMakeFiles/QuickCreate.dir/src/manager.cpp.o: ../src/manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QuickCreate.dir/src/manager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QuickCreate.dir/src/manager.cpp.o -c /root/workspace/QuickCreate/src/manager.cpp
+
+CMakeFiles/QuickCreate.dir/src/manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuickCreate.dir/src/manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/QuickCreate/src/manager.cpp > CMakeFiles/QuickCreate.dir/src/manager.cpp.i
+
+CMakeFiles/QuickCreate.dir/src/manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuickCreate.dir/src/manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/QuickCreate/src/manager.cpp -o CMakeFiles/QuickCreate.dir/src/manager.cpp.s
+
+CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o: CMakeFiles/QuickCreate.dir/flags.make
+CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o: ../src/CommandParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o -c /root/workspace/QuickCreate/src/CommandParser.cpp
+
+CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/QuickCreate/src/CommandParser.cpp > CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.i
+
+CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/QuickCreate/src/CommandParser.cpp -o CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.s
 
 # Object files for target QuickCreate
 QuickCreate_OBJECTS = \
-"CMakeFiles/QuickCreate.dir/test/main.cpp.o"
+"CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o" \
+"CMakeFiles/QuickCreate.dir/src/manager.cpp.o" \
+"CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o"
 
 # External object files for target QuickCreate
 QuickCreate_EXTERNAL_OBJECTS =
 
-../bin/QuickCreate: CMakeFiles/QuickCreate.dir/test/main.cpp.o
+../bin/QuickCreate: CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o
+../bin/QuickCreate: CMakeFiles/QuickCreate.dir/src/manager.cpp.o
+../bin/QuickCreate: CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o
 ../bin/QuickCreate: CMakeFiles/QuickCreate.dir/build.make
 ../bin/QuickCreate: CMakeFiles/QuickCreate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/QuickCreate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/QuickCreate"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QuickCreate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -126,32 +126,172 @@ QuickCreate/fast:
 	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/build
 .PHONY : QuickCreate/fast
 
-test/main.o: test/main.cpp.o
+#=============================================================================
+# Target rules for targets named classCreate
 
-.PHONY : test/main.o
+# Build rule for target.
+classCreate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classCreate
+.PHONY : classCreate
+
+# fast build rule for target.
+classCreate/fast:
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/build
+.PHONY : classCreate/fast
+
+#=============================================================================
+# Target rules for targets named ProjectCreate
+
+# Build rule for target.
+ProjectCreate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ProjectCreate
+.PHONY : ProjectCreate
+
+# fast build rule for target.
+ProjectCreate/fast:
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/build
+.PHONY : ProjectCreate/fast
+
+src/CommandParser.o: src/CommandParser.cpp.o
+
+.PHONY : src/CommandParser.o
 
 # target to build an object file
-test/main.cpp.o:
-	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/test/main.cpp.o
-.PHONY : test/main.cpp.o
+src/CommandParser.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.o
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/src/CommandParser.cpp.o
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/src/CommandParser.cpp.o
+.PHONY : src/CommandParser.cpp.o
 
-test/main.i: test/main.cpp.i
+src/CommandParser.i: src/CommandParser.cpp.i
 
-.PHONY : test/main.i
+.PHONY : src/CommandParser.i
 
 # target to preprocess a source file
-test/main.cpp.i:
-	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/test/main.cpp.i
-.PHONY : test/main.cpp.i
+src/CommandParser.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.i
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/src/CommandParser.cpp.i
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/src/CommandParser.cpp.i
+.PHONY : src/CommandParser.cpp.i
 
-test/main.s: test/main.cpp.s
+src/CommandParser.s: src/CommandParser.cpp.s
 
-.PHONY : test/main.s
+.PHONY : src/CommandParser.s
 
 # target to generate assembly for a file
-test/main.cpp.s:
-	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/test/main.cpp.s
-.PHONY : test/main.cpp.s
+src/CommandParser.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/src/CommandParser.cpp.s
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/src/CommandParser.cpp.s
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/src/CommandParser.cpp.s
+.PHONY : src/CommandParser.cpp.s
+
+src/manager.o: src/manager.cpp.o
+
+.PHONY : src/manager.o
+
+# target to build an object file
+src/manager.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/src/manager.cpp.o
+.PHONY : src/manager.cpp.o
+
+src/manager.i: src/manager.cpp.i
+
+.PHONY : src/manager.i
+
+# target to preprocess a source file
+src/manager.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/src/manager.cpp.i
+.PHONY : src/manager.cpp.i
+
+src/manager.s: src/manager.cpp.s
+
+.PHONY : src/manager.s
+
+# target to generate assembly for a file
+src/manager.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/src/manager.cpp.s
+.PHONY : src/manager.cpp.s
+
+test/QuickCreate.o: test/QuickCreate.cpp.o
+
+.PHONY : test/QuickCreate.o
+
+# target to build an object file
+test/QuickCreate.cpp.o:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.o
+.PHONY : test/QuickCreate.cpp.o
+
+test/QuickCreate.i: test/QuickCreate.cpp.i
+
+.PHONY : test/QuickCreate.i
+
+# target to preprocess a source file
+test/QuickCreate.cpp.i:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.i
+.PHONY : test/QuickCreate.cpp.i
+
+test/QuickCreate.s: test/QuickCreate.cpp.s
+
+.PHONY : test/QuickCreate.s
+
+# target to generate assembly for a file
+test/QuickCreate.cpp.s:
+	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/test/QuickCreate.cpp.s
+.PHONY : test/QuickCreate.cpp.s
+
+test/test_class_create.o: test/test_class_create.cpp.o
+
+.PHONY : test/test_class_create.o
+
+# target to build an object file
+test/test_class_create.cpp.o:
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/test/test_class_create.cpp.o
+.PHONY : test/test_class_create.cpp.o
+
+test/test_class_create.i: test/test_class_create.cpp.i
+
+.PHONY : test/test_class_create.i
+
+# target to preprocess a source file
+test/test_class_create.cpp.i:
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/test/test_class_create.cpp.i
+.PHONY : test/test_class_create.cpp.i
+
+test/test_class_create.s: test/test_class_create.cpp.s
+
+.PHONY : test/test_class_create.s
+
+# target to generate assembly for a file
+test/test_class_create.cpp.s:
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/test/test_class_create.cpp.s
+.PHONY : test/test_class_create.cpp.s
+
+test/test_project_create.o: test/test_project_create.cpp.o
+
+.PHONY : test/test_project_create.o
+
+# target to build an object file
+test/test_project_create.cpp.o:
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/test/test_project_create.cpp.o
+.PHONY : test/test_project_create.cpp.o
+
+test/test_project_create.i: test/test_project_create.cpp.i
+
+.PHONY : test/test_project_create.i
+
+# target to preprocess a source file
+test/test_project_create.cpp.i:
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/test/test_project_create.cpp.i
+.PHONY : test/test_project_create.cpp.i
+
+test/test_project_create.s: test/test_project_create.cpp.s
+
+.PHONY : test/test_project_create.s
+
+# target to generate assembly for a file
+test/test_project_create.cpp.s:
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/test/test_project_create.cpp.s
+.PHONY : test/test_project_create.cpp.s
 
 # Help Target
 help:
@@ -160,11 +300,25 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... QuickCreate"
 	@echo "... edit_cache"
-	@echo "... test/main.o"
-	@echo "... test/main.i"
-	@echo "... test/main.s"
+	@echo "... QuickCreate"
+	@echo "... classCreate"
+	@echo "... ProjectCreate"
+	@echo "... src/CommandParser.o"
+	@echo "... src/CommandParser.i"
+	@echo "... src/CommandParser.s"
+	@echo "... src/manager.o"
+	@echo "... src/manager.i"
+	@echo "... src/manager.s"
+	@echo "... test/QuickCreate.o"
+	@echo "... test/QuickCreate.i"
+	@echo "... test/QuickCreate.s"
+	@echo "... test/test_class_create.o"
+	@echo "... test/test_class_create.i"
+	@echo "... test/test_class_create.s"
+	@echo "... test/test_project_create.o"
+	@echo "... test/test_project_create.i"
+	@echo "... test/test_project_create.s"
 .PHONY : help
 
 

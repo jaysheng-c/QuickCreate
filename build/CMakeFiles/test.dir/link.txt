@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations  -rdynamic CMakeFiles/test.dir/test/main2.cpp.o CMakeFiles/test.dir/src/CommandParser.cpp.o  -o ../bin/test  -L/apps/yoshino/lib  -L/apps/yoshino/lib64 

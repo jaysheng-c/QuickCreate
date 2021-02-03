@@ -57,11 +57,15 @@ CMAKE_BINARY_DIR = /root/workspace/QuickCreate/build
 
 # The main recursive "all" target.
 all: CMakeFiles/QuickCreate.dir/all
+all: CMakeFiles/classCreate.dir/all
+all: CMakeFiles/ProjectCreate.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/QuickCreate.dir/clean
+clean: CMakeFiles/classCreate.dir/clean
+clean: CMakeFiles/ProjectCreate.dir/clean
 
 .PHONY : clean
 
@@ -77,12 +81,12 @@ preinstall:
 CMakeFiles/QuickCreate.dir/all:
 	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/depend
 	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=1,2 "Built target QuickCreate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=4,5,6,7 "Built target QuickCreate"
 .PHONY : CMakeFiles/QuickCreate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QuickCreate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QuickCreate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 0
 .PHONY : CMakeFiles/QuickCreate.dir/rule
@@ -96,6 +100,60 @@ QuickCreate: CMakeFiles/QuickCreate.dir/rule
 CMakeFiles/QuickCreate.dir/clean:
 	$(MAKE) -f CMakeFiles/QuickCreate.dir/build.make CMakeFiles/QuickCreate.dir/clean
 .PHONY : CMakeFiles/QuickCreate.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/classCreate.dir
+
+# All Build rule for target.
+CMakeFiles/classCreate.dir/all:
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/depend
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=8,9,10 "Built target classCreate"
+.PHONY : CMakeFiles/classCreate.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/classCreate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/classCreate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 0
+.PHONY : CMakeFiles/classCreate.dir/rule
+
+# Convenience name for target.
+classCreate: CMakeFiles/classCreate.dir/rule
+
+.PHONY : classCreate
+
+# clean rule for target.
+CMakeFiles/classCreate.dir/clean:
+	$(MAKE) -f CMakeFiles/classCreate.dir/build.make CMakeFiles/classCreate.dir/clean
+.PHONY : CMakeFiles/classCreate.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProjectCreate.dir
+
+# All Build rule for target.
+CMakeFiles/ProjectCreate.dir/all:
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/depend
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/workspace/QuickCreate/build/CMakeFiles --progress-num=1,2,3 "Built target ProjectCreate"
+.PHONY : CMakeFiles/ProjectCreate.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProjectCreate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ProjectCreate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/QuickCreate/build/CMakeFiles 0
+.PHONY : CMakeFiles/ProjectCreate.dir/rule
+
+# Convenience name for target.
+ProjectCreate: CMakeFiles/ProjectCreate.dir/rule
+
+.PHONY : ProjectCreate
+
+# clean rule for target.
+CMakeFiles/ProjectCreate.dir/clean:
+	$(MAKE) -f CMakeFiles/ProjectCreate.dir/build.make CMakeFiles/ProjectCreate.dir/clean
+.PHONY : CMakeFiles/ProjectCreate.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

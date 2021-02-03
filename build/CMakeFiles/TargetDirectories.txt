@@ -1,3 +1,5 @@
 /root/workspace/QuickCreate/build/CMakeFiles/rebuild_cache.dir
-/root/workspace/QuickCreate/build/CMakeFiles/QuickCreate.dir
 /root/workspace/QuickCreate/build/CMakeFiles/edit_cache.dir
+/root/workspace/QuickCreate/build/CMakeFiles/QuickCreate.dir
+/root/workspace/QuickCreate/build/CMakeFiles/classCreate.dir
+/root/workspace/QuickCreate/build/CMakeFiles/ProjectCreate.dir
